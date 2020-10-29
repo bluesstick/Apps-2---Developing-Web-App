@@ -12,6 +12,11 @@ h1 {
 }
 
 .special {
-    color: black;
-    font-size: 16px;
+    color: #800080;
+    font-size: xx-large;
+}
+.introduction {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #800000;
 }
