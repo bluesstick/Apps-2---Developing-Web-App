@@ -1,0 +1,11 @@
+D:\Programing\Business Sales Project\RestaurantOsystem\RestaurantOsystem\bin\Debug\RestaurantOsystem.exe
+D:\Programing\Business Sales Project\RestaurantOsystem\RestaurantOsystem\bin\Debug\RestaurantOsystem.pdb
+D:\Programing\Business Sales Project\RestaurantOsystem\RestaurantOsystem\obj\Debug\RestaurantOsystem.csprojAssemblyReference.cache
+D:\Programing\Business Sales Project\RestaurantOsystem\RestaurantOsystem\obj\Debug\RestaurantOsystem.Connection.Manual_Connection.resources
+D:\Programing\Business Sales Project\RestaurantOsystem\RestaurantOsystem\obj\Debug\RestaurantOsystem.Properties.Resources.resources
+D:\Programing\Business Sales Project\RestaurantOsystem\RestaurantOsystem\obj\Debug\RestaurantOsystem.csproj.GenerateResource.cache
+D:\Programing\Business Sales Project\RestaurantOsystem\RestaurantOsystem\obj\Debug\RestaurantOsystem.csproj.CoreCompileInputs.cache
+D:\Programing\Business Sales Project\RestaurantOsystem\RestaurantOsystem\obj\Debug\RestaurantOsystem.exe
+D:\Programing\Business Sales Project\RestaurantOsystem\RestaurantOsystem\obj\Debug\RestaurantOsystem.pdb
+D:\Programing\Business Sales Project\RestaurantOsystem\RestaurantOsystem\obj\Debug\RestaurantOsystem.Modules.Tables_Rooms.Tables_Setup.resources
+D:\Programing\Business Sales Project\RestaurantOsystem\RestaurantOsystem\obj\Debug\RestaurantOsystem.Modules.Tables_Rooms.Rooms.resources

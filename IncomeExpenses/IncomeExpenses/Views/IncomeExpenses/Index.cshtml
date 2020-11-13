@@ -1,0 +1,86 @@
+﻿@model IEnumerable<IncomeExpenses.Models.IncomeExpensesEM>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a href="@Url.Action("Create","IncomeExpenses")" class="btn btn-primary">Create New</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsIncome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Value)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateIncome)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @if (item.IsIncome == true)
+            {
+                <p class="text-primary">Income</p>
+            }
+            else
+            {
+                <p class="text-danger">Expense</p>
+            }
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateIncome)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }, new { @class = "btn btn-success"}) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }, new { @class = "btn btn-info" }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>
+
+<div class="form-group row">
+    <div class="col-sm-1">
+        <label class="col-form-label text-primary">Total Income</label>
+    </div>
+    <div class="col-sm-2 text-right text-primary">
+        <label class="col-form-label">@ViewBag.Income</label>
+    </div>
+</div>
+
+<div class="form-group row">
+    <div class="col-sm-1">
+        <label class="col-form-label text-primary">Total Expenses</label>
+    </div>
+    <div class="col-sm-2 text-right text-primary">
+        <label class="col-form-label">@ViewBag.Expenses</label>
+    </div>
+</div>
+
+<div class="form-group row">
+    <div class="col-sm-1">
+        <label class="col-form-label text-primary">Total Net</label>
+    </div>
+    <div class="col-sm-2 text-right text-primary">
+        <label class="col-form-label">@ViewBag.Net</label>
+    </div>
+</div>
