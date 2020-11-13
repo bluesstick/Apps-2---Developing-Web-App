@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{168CB614-393C-49AE-B040-DF9937649FF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentMyWrox", "WebApplication1\RentMyWrox.csproj", "{168CB614-393C-49AE-B040-DF9937649FF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

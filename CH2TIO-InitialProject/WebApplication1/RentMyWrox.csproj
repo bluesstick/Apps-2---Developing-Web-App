@@ -117,10 +117,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\ManageItem.aspx.cs">
+      <DependentUpon>ManageItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageItem.aspx.designer.cs">
+      <DependentUpon>ManageItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\OrderList.aspx.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OrderList.aspx.designer.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserDemographicsController.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -128,30 +143,75 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Demostrations\Page1.aspx.cs">
+      <DependentUpon>Page1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demostrations\Page1.aspx.designer.cs">
+      <DependentUpon>Page1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demostrations\Page2.aspx.cs">
+      <DependentUpon>Page2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demostrations\Page2.aspx.designer.cs">
+      <DependentUpon>Page2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demostrations\ServerControls.aspx.cs">
+      <DependentUpon>ServerControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demostrations\ServerControls.aspx.designer.cs">
+      <DependentUpon>ServerControls.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="IntroToCss.aspx.cs">
+    <Compile Include="Demostrations\IntroToCss.aspx.cs">
       <DependentUpon>IntroToCss.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="IntroToCss.aspx.designer.cs">
+    <Compile Include="Demostrations\IntroToCss.aspx.designer.cs">
       <DependentUpon>IntroToCss.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\UserDemographics.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms.Master.cs">
+      <DependentUpon>WebForms.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms.Master.designer.cs">
+      <DependentUpon>WebForms.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormsBaseClass.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\ManageItem.aspx" />
+    <Content Include="Admin\OrderList.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\IntroToCss.css" />
     <Content Include="Content\main.css" />
+    <Content Include="Content\RentMyWrox.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Demostrations\Page1.aspx" />
+    <Content Include="Demostrations\Page2.aspx" />
+    <Content Include="Demostrations\ServerControls.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="IntroToCss.aspx" />
+    <Content Include="Demostrations\IntroToCss.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -179,10 +239,15 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Site.Master" />
+    <Content Include="Views\UserDemographics\Index.cshtml" />
+    <Content Include="Views\UserDemographics\Create.cshtml" />
+    <Content Include="WebForms.Master" />
+    <Content Include="Views\Shared\_MVCLayout.cshtml" />
+    <Content Include="Views\UserDemographics\Manage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

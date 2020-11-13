@@ -4,3 +4,14 @@ body {
     font-family: Arial;
     font-size: medium;
 }
+.title {
+    font-family: Cambria;
+}
+
+.label {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.title, .label {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
